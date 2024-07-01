@@ -5,6 +5,8 @@ import Dashboard from "./pages/Dashboard.jsx";
 import PromptList from "./pages/PromptList.jsx";
 import AddEditPrompt from "./pages/AddEditPrompt.jsx";
 
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "sonner";
 import SharedLayout from "./components/layouts/sidebar.jsx";
 
 const queryClient = new QueryClient();
